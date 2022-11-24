@@ -1,0 +1,122 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+h1{
+    font-size: 38px;
+}
+/* h2{
+    text-align: center;
+} */
+p{
+    color: rgb(105, 105, 105);
+    line-height: 2;
+}
+.header{
+    height: 600px;
+    background-image: url("/img/header-bg.png");
+    margin-bottom: 200px;
+}
+.lefttext{
+    width: 39%;
+    float: left;
+    margin-left: 5%;
+    padding: 10px 20px;
+}
+.lefttext span{
+    color: deeppink;
+    font-size: 1.1em;
+    font-weight: 1200;
+}
+ a{
+    border-radius: 5px;
+    background-color: deeppink;
+    color: white;
+    font-weight: 700;
+    padding: 10px 22px;
+    text-decoration: none;
+}
+.rightimage{
+    width: 39%;
+    float: right;
+    margin-right: 5%;
+    padding: 10px 20px;
+}
+.rightimage img{
+    width: 100%;
+}
+
+
+.leftimage{
+    width: 39%;
+    float: left;
+    margin-left: 5%;
+    padding: 10px 20px;
+}
+.righttext{
+    
+    width: 39%;
+    float: right;
+    margin-right: 5%;
+    padding: 10px 20px;
+}
+.dream{
+    height: 700px;
+    margin-bottom: 200px;
+}
+
+.work{
+    height: 300px;
+    background-image: url("/img/latest-work-bg.png");
+    margin-bottom: 200px;
+}
+.work h1{
+    text-align: center;
+    font-size: 38px;
+}
+.projects{
+    /* width: 39%; */
+    display: inline;
+}
+.projects img{
+    margin: 0 3%;
+    width: 27%;
+}
+footer{
+    height: 400px;
+    text-align: center;
+    background-image: url("/img/footer-bg.png");
+}
+footer h2{
+    margin-bottom: 60px;
+}
+footer h4{
+    margin-bottom: 60px;
+}
+.message{
+    margin: 0 30%;
+    border-radius: 5px;
+    background-color: deeppink;
+    color: white;
+    font-weight: 700;
+    padding: 10px 22px;
+    margin-bottom: 60px;
+
+}
+footer p span{
+    font-size: 1.5em;
+
+}
+
+blockquote{
+    padding: 0 30%;
+    color: rgb(86, 86, 86);
+    font-style: italic;
+    margin-bottom: 60px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
